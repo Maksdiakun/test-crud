@@ -1,0 +1,22 @@
+.task-item {
+  &.ant-card {
+    margin-bottom: 20px;
+  }
+
+  &__header, &__footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__footer {
+    padding-top: 20px;
+  }
+}
+
+.ant-card {
+  .ant-input {
+    border: none;
+    border-bottom: 1px solid #bdb4b3;
+    border-radius: 0;
+  }
+}
